@@ -1,3 +1,6 @@
 #!/usr/bin/env node
 'use strict'
+// 设置一个环境变量
+process.env.EASYCMS_USAGE = 'CLI'
+// 开始进入cli的主文件
 require('../lib/index.js')
