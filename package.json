@@ -1,0 +1,70 @@
+{
+  "name": "@easyke/easycms",
+  "version": "0.0.1",
+  "preferGlobal": true,
+  "description": "easycms-daemon-cli",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "bin": {
+    "easycms": "./bin/easycms"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "example": "./examples"
+  },
+  "scripts": {
+    "easycms": "./bin/easycms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easycms/cli-node.git"
+  },
+  "keywords": [
+    "easycms-daemon-cli",
+    "easycms-cli"
+  ],
+  "author": {
+    "name": "yuchonghua",
+    "email": "easycms@easyke.top",
+    "url": "http://easyke.top"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/easycms/cli-node/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-cursor": "^2.1.0",
+    "cli-spinners": "^1.3.1",
+    "commander": "^2.19.0",
+    "kind-of": "^6.0.2",
+    "koa": "^2.6.1",
+    "semver": "~5",
+    "@easyke/daemon":"https://github.com/easycms/daemon-node.git",
+    "@easyke/daemon-api":"https://github.com/easycms/daemon-api-node.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "~12.0.0||~12.0.0-alpha.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.7.1"
+  },
+  "contributors": [
+    {
+      "name": "yuchonghua",
+      "email": "yuchonghua@163.com"
+    }
+  ],
+  "homepage": "https://easycms.wiki/wiki/cli-node#readme"
+}
