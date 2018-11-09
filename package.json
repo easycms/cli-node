@@ -36,15 +36,17 @@
     "url": "https://github.com/easycms/cli-node/issues"
   },
   "dependencies": {
+    "@easyke/daemon": "https://github.com/easycms/daemon-node.git",
+    "@easyke/daemon-api": "https://github.com/easycms/daemon-api-node.git",
     "chalk": "^2.4.1",
     "cli-cursor": "^2.1.0",
     "cli-spinners": "^1.3.1",
     "commander": "^2.19.0",
     "kind-of": "^6.0.2",
     "koa": "^2.6.1",
+    "npm-path": "^2.0.4",
     "semver": "~5",
-    "@easyke/daemon":"https://github.com/easycms/daemon-node.git",
-    "@easyke/daemon-api":"https://github.com/easycms/daemon-api-node.git"
+    "which": "^1.3.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
